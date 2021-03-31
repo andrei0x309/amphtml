@@ -17,6 +17,9 @@
 export const ACTIVATION_TIMEOUT = 5000; // 5 seconds.
 
 const ACTIVATION_EVENTS = [
+  'touchstart',
+  'touchmove', 
+  'touchend',
   'change',
   'click',
   'dblclick',
